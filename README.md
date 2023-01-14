@@ -63,3 +63,5 @@ Defer - The defer attribute is a boolean attribute. The script is downloaded in 
 ```sh
 <script src="demo_defer.js" defer></script>
 ```
+
+## Chapter 2 - Igniting our app
