@@ -1,0 +1,27 @@
+{
+  "name": "namstereact",
+  "version": "1.0.0",
+  "description": "Ans: Emmet is the plug-in that are used by different text editors to improve the workflow in the code. It is particularly used By HTML,CSS.Here we create a shortcut of multiple line code Which we can use in Future. For example:Boilerplate code of HTML which is used by Exclamation mark and tab in VS Code.\r ````HTML\r <!DOCTYPE html>\r <html lang=\"en\">\r   <head>\r     <meta charset=\"UTF-8\">\r     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r     <title>HTML 5 Boilerplate</title>\r     <link rel=\"stylesheet\" href=\"style.css\">\r   </head>\r   <body>\r \t<script src=\"index.js\"></script>\r   </body>\r </html>\r ````\r ### Question 2: What is CDN?\r Ans: CDN Stands for content Delivery Network.It is the system of Distributed Server that deliver web content on the user geographical Location.It also increases the performance and reliability of the system. It reduce latency",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrharsh06/Namaste_react.git"
+  },
+  "author": "Harsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrharsh06/Namaste_react/issues"
+  },
+  "homepage": "https://github.com/mrharsh06/Namaste_react#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
