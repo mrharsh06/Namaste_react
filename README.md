@@ -20,7 +20,7 @@ Ans: Emmet is the plug-in that are used by different text editors to improve the
 </html>
 ````
 ### Question 2: What is CDN?
-Ans: CDN Stands for content Delivery Network.It is the system of Distributed Server that deliver web content on the user geographical Location.It also increases the performance and reliability of the system It reduce latency
+Ans: CDN Stands for content Delivery Network.It is the system of Distributed Server that deliver web content on the user geographical Location.It also increases the performance and reliability of the system. It reduce latency
 
 ### Question 3: What is CrossOrigin?
 Ans: It allows you to send request to the multiple servers.It is recommended to use crossorigin when you  are using react by CDN links.
