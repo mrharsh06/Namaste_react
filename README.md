@@ -24,13 +24,42 @@ Ans: CDN Stands for content Delivery Network.It is the system of Distributed Ser
 
 ### Question 3: What is CrossOrigin?
 Ans: It allows you to send request to the multiple servers.It is recommended to use crossorigin when you  are using react by CDN links.
+```sh
+<script crossorigin="anonymous|use-credentials">
+```
 
 ### Question 4: What is DOM?
 Ans: Document Object Model allows us to change the elements of HTML and CSS.We can change the tag wby using javascript eaisly using some commands like getElementbyId.Although it takes to update which might slow your speed.
 
 Virtual Dom is used by React as it takes less time to change.It creates virtual tree and compare with reliabilityDom tree and rendered (reload) only that parts or node of the virtual tree. After comparing the tree with Actual tree and It found shortest path to go to that node and then it reload it takes less time to update the Element.
 
-### Question 5: What is difference betwen Async and Differ?
-Ans: In Async HTML parsing goes on meanwhile fetching of script is done in Background and after that HTML parsing Stops and execution of Scripts starts and then after completion HTML parsing starts again
+### Question 5: Difference between a Library and Framework?
+A: A library is a collection of packages that perform specific operations whereas a framework contains the basic flow and architecture of an application. The major difference between them is the complexity. Libraries contain a number of methods that a developer can just call whenever they write code. React js is library and Angular is Framework.
+The framework provides the flow of a software application and tells the developer what it needs and calls the code provided by the developer as required. If a library is used, the application calls the code from the library.
 
-While on the other hand in Differ Fetching of Scripts is done along with the HTML parsing and Execution of Scripts is done at the end of HTML parsing.
+### Question 6: Why is React known as React?
+A: React is named React because of its ability to react to changes in data.
+React is called React because it was designed to be a declarative, efficient, and flexible JavaScript library for building user interfaces.
+The name "React" was chosen because the library was designed to allow developers to "react" to changes in state and data within an application, and to update the user interface in a declarative and efficient manner.
+React is a JavaScript-based UI development library. Facebook and an open-source developer community run it.
+
+### Question 7: What is difference between React and ReactDOM?
+A: React is a JavaScript library for building User Interfaces whereas ReactDOM is also JavaScript library that allows React to interact with the DOM.
+The react package contains React.createElement(), React.Component, React.Children, and other helpers related to elements and component classes. You can think of these as the isomorphic or universal helpers that you need to build components. The react-dom package contains ReactDOM.render(), and in react-dom/server we have server-side rendering support with ReactDOMServer.renderToString() and ReactDOMServer.renderToStaticMarkup().
+
+### Question 8: What is difference between react.development.js and react.production.js files via CDN?
+A: Development is the stage of an application before it's made public while production is the term used for the same application when it's made public.
+Development build is several times (maybe 3-5x) slower than the production build.
+
+### Question 9: What is async and defer?
+A: Async - The async attribute is a boolean attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed as soon as it is available (do not block HTML DOM construction during downloading process ) and don’t wait for anything.
+### _Syntax_
+```sh
+<script src="demo_async.js" async></script>
+```
+
+Defer - The defer attribute is a boolean attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed after the page has finished parsing(when browser finished DOM construction). The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM.
+### _Syntax_
+```sh
+<script src="demo_defer.js" defer></script>
+```
